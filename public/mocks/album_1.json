@@ -1,0 +1,53 @@
+{
+    "id": 1,
+    "autor": "Parcels",
+    "title": "Parcels",
+    "image": "img_1.jpg",
+    "songs": [
+        {
+            "title": "Comedown",
+            "length": "3:08"
+        },
+        {
+            "title": "Lightenup",
+            "length": "3:57"
+        },
+        {
+            "title": "Withorwithout",
+            "length": "3:25"
+        },
+        {
+            "title": "Tape",
+            "length": "3:43"
+        },
+        {
+            "title": "Everyroad",
+            "length": "8:35"
+        },
+        {
+            "title": "Yourfault",
+            "length": "3:39"
+        },
+        {
+            "title": "Closetowhy",
+            "length": "5:30"
+        },
+        {
+            "title": "IknowhowIfeel",
+            "length": "5:27"
+        },
+        {
+            "title": "Exotica",
+            "length": "5:12"
+        },
+        {
+            "title": "Tieduprightnow",
+            "length": "3:01"
+        },
+        {
+            "title": "Bemyself",
+            "length": "2:27"
+        }
+    ],
+    "description": "El álbum homónimo de Parcels es una obra maestra de la música disco contemporánea que combina una estética retro con un enfoque fresco y moderno. Con una mezcla de ritmos pegajosos, melodías contagiosas y letras introspectivas, cada pista de este álbum transporta a los oyentes a un viaje musical lleno de energía y emoción. Desde las canciones de apertura como 'Comedown' y 'Lightenup', que establecen el tono con sus ritmos funky y letras reflexivas, hasta los temas más íntimos como 'Closetowhy' y 'IknowhowIfeel', que exploran la complejidad de las relaciones humanas, 'Parcels' ofrece una experiencia auditiva única que cautiva desde el primer momento hasta el último compás. Con su distintivo estilo visual y su sonido inconfundible, Parcels demuestra por qué son una de las bandas más emocionantes y prometedoras en la escena musical actual."
+}

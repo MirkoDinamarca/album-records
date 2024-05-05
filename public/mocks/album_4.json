@@ -1,0 +1,69 @@
+{
+    "id": 4,
+    "autor": "Imagine Dragons",
+    "title": "Origins",
+    "image": "img_4.png",
+    "songs": [
+        {
+            "title": "Natural",
+            "length": "3:09"
+        },
+        {
+            "title": "Boomerang",
+            "length": "3:07"
+        },
+        {
+            "title": "Machine",
+            "length": "3:01"
+        },
+        {
+            "title": "Cool Out",
+            "length": "3:37"
+        },
+        {
+            "title": "Bad Liar",
+            "length": "4:20"
+        },
+        {
+            "title": "West Coast",
+            "length": "3:37"
+        },
+        {
+            "title": "Zero - From the Original Motion Picture 'Ralph Breaks The Internet'",
+            "length": "3:30"
+        },
+        {
+            "title": "Bullet In A Gun",
+            "length": "3:24"
+        },
+        {
+            "title": "Digital",
+            "length": "3:21"
+        },
+        {
+            "title": "Only",
+            "length": "3:00"
+        },
+        {
+            "title": "Stuck",
+            "length": "3:10"
+        },
+        {
+            "title": "Love",
+            "length": "2:46"
+        },
+        {
+            "title": "Birds",
+            "length": "3:39"
+        },
+        {
+            "title": "Burn Out",
+            "length": "4:33"
+        },
+        {
+            "title": "Real Life",
+            "length": "4:07"
+        }
+    ],
+    "description": "'Origins' es un álbum que continúa con el estilo distintivo de Imagine Dragons, fusionando elementos de rock alternativo con electrónica y pop. Consta de 15 pistas que exploran una variedad de temas, desde la lucha personal hasta la búsqueda de significado en un mundo en constante cambio. El álbum se abre con la enérgica 'Natural', que establece el tono para el resto del trabajo con su poderoso sonido y letras emotivas. Canciones como 'Machine' y 'Zero' destacan por sus ritmos vibrantes y letras llenas de determinación."
+}

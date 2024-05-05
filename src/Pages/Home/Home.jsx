@@ -1,0 +1,74 @@
+import { useNavigate } from "react-router-dom";
+import { ROUTES } from "../../Const/routes";
+import { useEffect, useState } from "react";
+import style from './Home.module.css';
+import List from "../../Components/List/List";
+import Header from "../../Components/Header/Header";
+import Footer from "../../Components/Footer/Footer";
+const Home = () => {
+
+    const navigate = useNavigate();
+    const [listAlbums, setListAlbums] = useState([]);
+    const [filterAlbums, setFilterAlbums] = useState([]);
+
+    /**
+     * Al momento de iniciar el Component 'Home' realiza un fetch al mock de 'Albums'
+     * Los datos que trae lo colocamos en el state de 'albums'
+     * (Mirko)
+     */
+    useEffect(() => {
+        const fetchAlbums = async () => {
+            try {
+                const response = await fetch("../../mocks/albums.json")
+                const result = await response.json();
+                setListAlbums(result)
+                setFilterAlbums(result)
+            } catch (error) {
+                console.log(error)
+            }
+        }
+        fetchAlbums()
+    }, [])
+
+    /**
+     * 
+     */
+    const OnClickHandler = () => {
+        navigate(ROUTES.home)
+    }
+
+    const onClickDetailsHandler = (id_album) => {
+        const url = `${ROUTES.details}/${id_album}`
+        navigate(url);
+    };
+
+    /**
+     * Buscador de Albums
+     */
+    const onChangeSearch = (param) => {
+        // console.log(param.target.value)
+        if (!param.target.value) {
+            setFilterAlbums(listAlbums)
+        } else {
+            let albumsFilter = listAlbums.filter(album => 
+                album.name.toLowerCase().includes(param.target.value.toLowerCase())
+            );
+            setFilterAlbums(albumsFilter)
+        }
+    };
+
+    return (
+        <div className={style.home}>
+            <Header/>
+            {/* <Title /> */}
+    
+            {/* Input para buscar las tareas */}
+            <input className={style.inputStyle} type="text" placeholder='Buscar...' onChange={onChangeSearch} />
+            <List  albums={filterAlbums} onClickDetailsHandler={onClickDetailsHandler} />
+            
+            <Footer/>
+        </div>
+    )
+}
+
+export default Home

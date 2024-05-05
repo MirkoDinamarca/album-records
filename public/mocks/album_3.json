@@ -1,0 +1,61 @@
+{
+    "id": 3,
+    "autor": "Ariana Grande",
+    "title": "eternal sunshine",
+    "image": "img_3.jpg",
+    "songs": [
+        {
+            "title": "intro (end of the world)",
+            "length": "1:22"
+        },
+        {
+            "title": "bye",
+            "length": "2:44"
+        },
+        {
+            "title": "don't wanna break up again",
+            "length": "2:54"
+        },
+        {
+            "title": "Saturn Returns Interlude",
+            "length": "0:42"
+        },
+        {
+            "title": "eternal sunshine",
+            "length": "3:30"
+        },
+        {
+            "title": "supernatural",
+            "length": "2:43"
+        },
+        {
+            "title": "true story",
+            "length": "2:43"
+        },
+        {
+            "title": "the boy is mine",
+            "length": "2:53"
+        },
+        {
+            "title": "yes, and?",
+            "length": "2:53"
+        },
+        {
+            "title": "Wwe can't by friends (wait for you love)",
+            "length": "3:48"
+        },
+        {
+            "title": "i wish i hated you",
+            "length": "2:33"
+        },
+        {
+            "title": "imperfect for you",
+            "length": "3:02"
+        },
+        {
+            "title": "ordinary things (feat. Nonna)",
+            "length": "2:48"
+        }
+    ],
+    "description": "'Eternal Sunshine' es el séptimo disco de estudio de Ariana Grande, lanzado en marzo de 2024. Este álbum marca su regreso después de tres años de ausencia y se caracteriza por ser una obra muy personal y sincera. El disco explora temas de amor, relaciones, inseguridad y superación de rupturas a través de 13 canciones."
+}

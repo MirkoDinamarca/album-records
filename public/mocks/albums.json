@@ -1,0 +1,298 @@
+[
+    {
+        "id": 1,
+        "name": "Parcels",
+        "albums": 
+            {
+                "title": "Parcels",
+                "image": "img_1.jpg",
+                "songs": [
+                    {
+                        "title": "Comedown",
+                        "length": "3:08"
+                    },
+                    {
+                        "title": "Lightenup",
+                        "length": "3:57"
+                    },
+                    {
+                        "title": "Withorwithout",
+                        "length": "3:25"
+                    },
+                    {
+                        "title": "Tape",
+                        "length": "3:43"
+                    },
+                    {
+                        "title": "Everyroad",
+                        "length": "8:35"
+                    },
+                    {
+                        "title": "Yourfault",
+                        "length": "3:39"
+                    },
+                    {
+                        "title": "Closetowhy",
+                        "length": "5:30"
+                    },
+                    {
+                        "title": "IknowhowIfeel",
+                        "length": "5:27"
+                    },
+                    {
+                        "title": "Exotica",
+                        "length": "5:12"
+                    },
+                    {
+                        "title": "Tieduprightnow",
+                        "length": "3:01"
+                    },
+                    {
+                        "title": "Bemyself",
+                        "length": "2:27"
+                    }
+                ],
+                "description": "El álbum homónimo de Parcels es una obra maestra de la música disco contemporánea que combina una estética retro con un enfoque fresco y moderno. Con una mezcla de ritmos pegajosos, melodías contagiosas y letras introspectivas, cada pista de este álbum transporta a los oyentes a un viaje musical lleno de energía y emoción. Desde las canciones de apertura como 'Comedown' y 'Lightenup', que establecen el tono con sus ritmos funky y letras reflexivas, hasta los temas más íntimos como 'Closetowhy' y 'IknowhowIfeel', que exploran la complejidad de las relaciones humanas, 'Parcels' ofrece una experiencia auditiva única que cautiva desde el primer momento hasta el último compás. Con su distintivo estilo visual y su sonido inconfundible, Parcels demuestra por qué son una de las bandas más emocionantes y prometedoras en la escena musical actual."
+            }
+        
+    },
+    {
+        "id": 2,
+        "name": "M83",
+        "albums": 
+            {
+                "title": "Hurry up, We're Dreaming",
+                "image": "img_2.jpg",
+                "songs": [
+                    {
+                        "title": "Intro",
+                        "length": "5:22"
+                    },
+                    {
+                        "title": "Midnight City",
+                        "length": "4:03"
+                    },
+                    {
+                        "title": "Reunion",
+                        "length": "3:55"
+                    },
+                    {
+                        "title": "Where the Boats Go",
+                        "length": "1:46"
+                    },
+                    {
+                        "title": "Wait",
+                        "length": "5:43"
+                    },
+                    {
+                        "title": "Raconte-moi una histoire",
+                        "length": "4:04"
+                    },
+                    {
+                        "title": "Train to Pluton",
+                        "length": "1:15"
+                    },
+                    {
+                        "title": "Claudia Lewis",
+                        "length": "4:31"
+                    },
+                    {
+                        "title": "This Bright Flash",
+                        "length": "2:24"
+                    },
+                    {
+                        "title": "When Will You Come Home",
+                        "length": "1:23"
+                    },
+                    {
+                        "title": "Soon, My Friend",
+                        "length": "3:09"
+                    },
+                    {
+                        "title": "My Tears Are Becoming a Sea",
+                        "length": "2:31"
+                    },
+                    {
+                        "title": "New Map",
+                        "length": "4:22"
+                    },
+                    {
+                        "title": "Ok Pal",
+                        "length": "3:58"
+                    },
+                    {
+                        "title": "Another Wave from You",
+                        "length": "1:53"
+                    },
+                    {
+                        "title": "Splendor",
+                        "length": "5:07"
+                    },
+                    {
+                        "title": "Year One, One Ufo",
+                        "length": "3:17"
+                    },
+                    {
+                        "title": "Fountains",
+                        "length": "1:21"
+                    },
+                    {
+                        "title": "Steve Mcqueen",
+                        "length": "3:48"
+                    },
+                    {
+                        "title": "Echoes of Mine",
+                        "length": "3:39"
+                    },
+                    {
+                        "title": "Klaus I Love You",
+                        "length": "1:44"
+                    },
+                    {
+                        "title": "Outro",
+                        "length": "4:07"
+                    }
+                ],
+                "description": "Es un álbum doble lanzado por la banda francesa M83 en 2011. Este álbum se destaca por su sonido expansivo y atmosférico que combina elementos de dream pop, shoegaze y electrónica. Consta de 22 pistas que forman una narrativa musical inmersiva, explorando temas como la juventud, la nostalgia y la aventura. El álbum se abre con la enérgica 'Intro', que establece el tono épico y cinemático que permea todo el trabajo. Canciones como 'Midnight City' y 'Reunion' se han convertido en himnos modernos con su mezcla de sintetizadores pulsantes y coros grandiosos."
+            }
+        
+    },
+    {
+        "id": 3,
+        "name": "Ariana Grande",
+        "albums": 
+            {
+                "title": "eternal sunshine",
+                "image": "img_3.jpg",
+                "songs": [
+                    {
+                        "title": "intro (end of the world)",
+                        "length": "1:22"
+                    },
+                    {
+                        "title": "bye",
+                        "length": "2:44"
+                    },
+                    {
+                        "title": "don't wanna break up again",
+                        "length": "2:54"
+                    },
+                    {
+                        "title": "Saturn Returns Interlude",
+                        "length": "0:42"
+                    },
+                    {
+                        "title": "eternal sunshine",
+                        "length": "3:30"
+                    },
+                    {
+                        "title": "supernatural",
+                        "length": "2:43"
+                    },
+                    {
+                        "title": "true story",
+                        "length": "2:43"
+                    },
+                    {
+                        "title": "the boy is mine",
+                        "length": "2:53"
+                    },
+                    {
+                        "title": "yes, and?",
+                        "length": "2:53"
+                    },
+                    {
+                        "title": "Wwe can't by friends (wait for you love)",
+                        "length": "3:48"
+                    },
+                    {
+                        "title": "i wish i hated you",
+                        "length": "2:33"
+                    },
+                    {
+                        "title": "imperfect for you",
+                        "length": "3:02"
+                    },
+                    {
+                        "title": "ordinary things (feat. Nonna)",
+                        "length": "2:48"
+                    }
+                ],
+                "description": "'Eternal Sunshine' es el séptimo disco de estudio de Ariana Grande, lanzado en marzo de 2024. Este álbum marca su regreso después de tres años de ausencia y se caracteriza por ser una obra muy personal y sincera. El disco explora temas de amor, relaciones, inseguridad y superación de rupturas a través de 13 canciones."
+            }
+        
+    },
+    {
+        "id": 4,
+        "name": "Imagine Dragons",
+        "albums": 
+            {
+                "title": "Origins",
+                "image": "img_4.png",
+                "songs": [
+                    {
+                        "title": "Natural",
+                        "length": "3:09"
+                    },
+                    {
+                        "title": "Boomerang",
+                        "length": "3:07"
+                    },
+                    {
+                        "title": "Machine",
+                        "length": "3:01"
+                    },
+                    {
+                        "title": "Cool Out",
+                        "length": "3:37"
+                    },
+                    {
+                        "title": "Bad Liar",
+                        "length": "4:20"
+                    },
+                    {
+                        "title": "West Coast",
+                        "length": "3:37"
+                    },
+                    {
+                        "title": "Zero - From the Original Motion Picture 'Ralph Breaks The Internet'",
+                        "length": "3:30"
+                    },
+                    {
+                        "title": "Bullet In A Gun",
+                        "length": "3:24"
+                    },
+                    {
+                        "title": "Digital",
+                        "length": "3:21"
+                    },
+                    {
+                        "title": "Only",
+                        "length": "3:00"
+                    },
+                    {
+                        "title": "Stuck",
+                        "length": "3:10"
+                    },
+                    {
+                        "title": "Love",
+                        "length": "2:46"
+                    },
+                    {
+                        "title": "Birds",
+                        "length": "3:39"
+                    },
+                    {
+                        "title": "Burn Out",
+                        "length": "4:33"
+                    },
+                    {
+                        "title": "Real Life",
+                        "length": "4:07"
+                    }
+                ],
+                "description": "'Origins' es un álbum que continúa con el estilo distintivo de Imagine Dragons, fusionando elementos de rock alternativo con electrónica y pop. Consta de 15 pistas que exploran una variedad de temas, desde la lucha personal hasta la búsqueda de significado en un mundo en constante cambio. El álbum se abre con la enérgica 'Natural', que establece el tono para el resto del trabajo con su poderoso sonido y letras emotivas. Canciones como 'Machine' y 'Zero' destacan por sus ritmos vibrantes y letras llenas de determinación."
+            }
+        
+    }
+]
