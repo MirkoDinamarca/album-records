@@ -50,7 +50,7 @@ const Home = () => {
         if (!param.target.value) {
             setFilterAlbums(listAlbums)
         } else {
-            let albumsFilter = listAlbums.filter(album => 
+            let albumsFilter = listAlbums.filter(album =>
                 album.name.toLowerCase().includes(param.target.value.toLowerCase())
             );
             setFilterAlbums(albumsFilter)
@@ -59,14 +59,16 @@ const Home = () => {
 
     return (
         <div className={style.home}>
-            <Header/>
+            <Header />
             {/* <Title /> */}
-    
+
             {/* Input para buscar las tareas */}
-            <input className={style.inputStyle} type="text" placeholder='Buscar...' onChange={onChangeSearch} />
-            <List  albums={filterAlbums} onClickDetailsHandler={onClickDetailsHandler} />
-            
-            <Footer/>
+            <div className="flex justify-center">
+                <input className="text-center w-52 h-12 mb-5 border-double border-4 border-red-700 text-black rounded-md" type="text" placeholder='Buscar...' onChange={onChangeSearch} />
+            </div>
+            <List albums={filterAlbums} onClickDetailsHandler={onClickDetailsHandler} />
+
+            <Footer />
         </div>
     )
 }

@@ -1,7 +1,9 @@
 import { useState, useEffect } from "react"
+import { useNavigate } from 'react-router-dom';
 import { useParams } from "react-router-dom"
 
 const Details = () => {
+  const navigate = useNavigate();
   const { id } = useParams();
   const [albumDetails, setAlbumDetails] = useState({})
 
@@ -16,15 +18,39 @@ const Details = () => {
       }
     }
     fetchAlbums()
-  }, [])
+  }, [id])
+
+  if (!albumDetails) {
+    console.log('Entra aca')
+    return <div>Cargando...</div>;
+  }
 
   return (
-    // <section>
-    <section className="bg-cover w-full h-screen bg-no-repeat" style={{backgroundImage: `url("/img/img_${id}.jpg")`}}>
-    {/* <div>
-      <img className="bg-cover w-auto h-full bg-no-repeat rounded-sm" src={'/img/img_1.jpg'} alt="" />
-    </div> */}
-      <div>Este es el nombre del album: {albumDetails.title}</div>
+    // <section className="w-full h-screen bg-gradient-to-r bg-no-repeat bg-cover" style={{backgroundImage: `url("/img/img_${id}.jpg")`}}>
+    <section className="w-1/2 py-3 mt-16 text-gray-400">
+      <div className="grid grid-cols-3 gap-3">
+        <div className="col-span-1 w-2/3 h-2/3">
+          <img className="bg-cover w-auto h-full bg-no-repeat rounded-lg ml-auto" src={`/img/${albumDetails.image}`} alt="Imagen Album" />
+        </div>
+        <div className="col-span-2 flex flex-col">
+          <h3 className="text-xl font-bold">{albumDetails.title}</h3>
+          <div className="mt-3"><p className="tracking-wide">{albumDetails.description}</p></div>
+        </div>
+      </div>
+      <br />
+      <div className="text-2xl tracking-wide">Autor: <b>{albumDetails.autor}</b></div>
+      <br />
+      <h2 className="text-2xl font-bold mb-3">Top <span className="text-blue-600">Songs</span></h2>
+      {albumDetails && albumDetails.songs && albumDetails.songs.map(song => {
+        return <>
+          <article className="flex justify-between p-3 rounded-md mb-2 hover:bg-gray-800 transition-all duration-10">
+          <p>{song.title}</p>
+          <p>{song.length}</p>
+          </article>
+        </>
+      })}
+
+      <button onClick={() => navigate('/')} className="bg-gray-500 p-2 rounded-lg text-white w-24 font-semibold tracking-wider hover:bg-gray-600 cursor-pointer transition-all duration-10">Volver</button>
     </section>
   )
 }
