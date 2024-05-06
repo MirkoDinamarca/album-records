@@ -1,0 +1,69 @@
+{
+    "id": 7,
+    "name": "Gorillaz",
+    "title": "Cracker Island (Delux)",
+    "image": "img_7.jpg",
+    "songs": [
+        {
+            "title": "Cracker Island (feat. Thundercat)",
+            "length": "3:33"
+        },
+        {
+            "title": "Oil (feat. Stevie Nicks)",
+            "length": "3:50"
+        },
+        {
+            "title": "The Tired Influencer",
+            "length": "3:31"
+        },
+        {
+            "title": "Silent Running (feat. Adeleye Omotayo)",
+            "length": "4:26"
+        },
+        {
+            "title": "New Gold (feat. Tame Impala and Bootie Brown)",
+            "length": "3:35"
+        },
+        {
+            "title": "Baby Queen",
+            "length": "3:40"
+        },
+        {
+            "title": "Tarantula",
+            "length": "3:31"
+        },
+        {
+            "title": "Tormenta (feat. Bad Bunny)",
+            "length": "3:13"
+        },
+        {
+            "title": "Skinny Ape",
+            "length": "4:41"
+        },
+        {
+            "title": "Possession Island (feat. Beck)",
+            "length": "3:26"
+        },
+        {
+            "title": "Captain Chicken (feat. Del The Funky Homosapien)",
+            "length": "1:51"
+        },
+        {
+            "title": "Controllah (feat. MC Bin Laden)",
+            "length": "2:30"
+        },
+        {
+            "title": "Crocadillaz (feat. De La Soul and Dawn Penn)",
+            "length": "2:33"
+        },
+        {
+            "title": "Silent Running (feat. Adeleye Omotayo) [2D Piano Version]",
+            "length": "4:23"
+        },
+        {
+            "title": "New Gold (feat. Tame Impala and Bootie Brown) - Dom Dolla Remix",
+            "length": "4:34"
+        }
+    ],
+    "description": "Cracker Island es el octavo álbum de estudio de la banda virtual británica Gorillaz. Fue lanzado el 24 de febrero de 2023 a través de los sellos discográficos Parlophone y Warner Records. El álbum cuenta con colaboraciones de artistas como Stevie Nicks, Adeleye Omotayo, Thundercat, Tame Impala, Bad Bunny, Bootie Brown y Beck. La música en Cracker Island abarca varios géneros, incluyendo pop, synth-pop, electropop y funk."
+}

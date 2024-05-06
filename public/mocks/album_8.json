@@ -1,0 +1,65 @@
+{
+    "id": 8,
+    "name": "The Weeknd",
+    "title": "After Hours",
+    "image": "img_8.jpg",
+    "songs": [
+        {
+            "title": "Alone Again",
+            "length": "4:10"
+        },
+        {
+            "title": "Too Late",
+            "length": "3:59"
+        },
+        {
+            "title": "Hardest To Love",
+            "length": "3:31"
+        },
+        {
+            "title": "Scared To Live",
+            "length": "3:11"
+        },
+        {
+            "title": "Snowchild",
+            "length": "4:07"
+        },
+        {
+            "title": "Escape From LA",
+            "length": "5:55"
+        },
+        {
+            "title": "Heartless",
+            "length": "3:18"
+        },
+        {
+            "title": "Faith",
+            "length": "4:43"
+        },
+        {
+            "title": "Blinding Lights",
+            "length": "3:20"
+        },
+        {
+            "title": "In Your Eyes",
+            "length": "3:57"
+        },
+        {
+            "title": "Save Your Tears",
+            "length": "3:35"
+        },
+        {
+            "title": "Repeat After Me (Interlude)",
+            "length": "3:15"
+        },
+        {
+            "title": "After Hours",
+            "length": "6:01"
+        },
+        {
+            "title": "Until I Bleed Out",
+            "length": "3:10"
+        }
+    ],
+    "description": "'After Hours' es el cuarto álbum de estudio del cantante y compositor canadiense The Weeknd, lanzado en 2020. El álbum presenta un sonido distintivo que combina elementos de R&B, synth-pop y música electrónica. Las letras exploran temas de amor, pérdida, deseo y la vida nocturna, reflejando la estética oscura y melancólica por la que The Weeknd es conocido. El álbum recibió elogios de la crítica por su producción inventiva y las potentes interpretaciones vocales de The Weeknd. Algunos de los sencillos destacados incluyen 'Blinding Lights', 'Heartless' y 'Save Your Tears'."
+}
