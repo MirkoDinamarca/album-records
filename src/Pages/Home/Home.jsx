@@ -3,8 +3,6 @@ import { ROUTES } from "../../Const/routes";
 import { useEffect, useState } from "react";
 import style from './Home.module.css';
 import List from "../../Components/List/List";
-import Header from "../../Components/Header/Header";
-import Footer from "../../Components/Footer/Footer";
 const Home = () => {
 
     const navigate = useNavigate();
@@ -59,8 +57,6 @@ const Home = () => {
 
     return (
         <div className={style.home}>
-            <Header />
-            {/* <Title /> */}
 
             {/* Input para buscar las tareas */}
             <div className="flex justify-center">
@@ -68,7 +64,6 @@ const Home = () => {
             </div>
             <List albums={filterAlbums} onClickDetailsHandler={onClickDetailsHandler} />
 
-            <Footer />
         </div>
     )
 }
