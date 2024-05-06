@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { ROUTES } from "../../Const/routes";
 import { useEffect, useState } from "react";
-import style from './Home.module.css';
+import style from "./Home.module.css";
 import List from "../../Components/List/List";
 const Home = () => {
 
@@ -28,13 +28,6 @@ const Home = () => {
         fetchAlbums()
     }, [])
 
-    /**
-     * 
-     */
-    const OnClickHandler = () => {
-        navigate(ROUTES.home)
-    }
-
     const onClickDetailsHandler = (id_album) => {
         const url = `${ROUTES.details}/${id_album}`
         navigate(url);
@@ -44,7 +37,6 @@ const Home = () => {
      * Buscador de Albums
      */
     const onChangeSearch = (param) => {
-        // console.log(param.target.value)
         if (!param.target.value) {
             setFilterAlbums(listAlbums)
         } else {
@@ -60,7 +52,7 @@ const Home = () => {
 
             {/* Input para buscar las tareas */}
             <div className="flex justify-center">
-                <input className="text-center w-52 h-12 mb-5 border-double border-4 border-red-700 text-black rounded-md" type="text" placeholder='Buscar...' onChange={onChangeSearch} />
+                <input className="text-center w-52 h-12 mb-5 border-double border-4 border-red-700 text-black rounded-md" type="text" placeholder="Buscar..." onChange={onChangeSearch} />
             </div>
             <List albums={filterAlbums} onClickDetailsHandler={onClickDetailsHandler} />
 

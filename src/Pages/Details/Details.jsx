@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react"
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 import { useParams } from "react-router-dom"
 
 const Details = () => {
@@ -20,13 +20,7 @@ const Details = () => {
     fetchAlbums()
   }, [id])
 
-  if (!albumDetails) {
-    console.log('Entra aca')
-    return <div>Cargando...</div>;
-  }
-
   return (
-    // <section className="w-full h-screen bg-gradient-to-r bg-no-repeat bg-cover" style={{backgroundImage: `url("/img/img_${id}.jpg")`}}>
     <section className="bg-no-repeat" style={{ backgroundImage: `url("/img/img_author_${id}.jpg")` }}>
       <section className="w-1/2 py-3 pt-52 mx-auto text-gray-400" >
         <div className="grid grid-cols-3 gap-3">
@@ -52,7 +46,7 @@ const Details = () => {
           </>
         })}
 
-        <button onClick={() => navigate('/')} className="bg-gray-500 p-2 rounded-lg text-white w-24 font-semibold tracking-wider hover:bg-gray-600 cursor-pointer transition-all duration-10">Volver</button>
+        <button onClick={() => navigate("/")} className="bg-gray-500 p-2 rounded-lg text-white w-24 font-semibold tracking-wider hover:bg-gray-600 cursor-pointer transition-all duration-10">Volver</button>
       </section>
     </section>
 
