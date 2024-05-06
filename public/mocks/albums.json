@@ -294,5 +294,25 @@
                 "description": "'Origins' es un álbum que continúa con el estilo distintivo de Imagine Dragons, fusionando elementos de rock alternativo con electrónica y pop. Consta de 15 pistas que exploran una variedad de temas, desde la lucha personal hasta la búsqueda de significado en un mundo en constante cambio. El álbum se abre con la enérgica 'Natural', que establece el tono para el resto del trabajo con su poderoso sonido y letras emotivas. Canciones como 'Machine' y 'Zero' destacan por sus ritmos vibrantes y letras llenas de determinación."
             }
         
+    },
+    {
+        "id": 5,
+        "name": "Taylor Swift",
+        "albums": 
+            {
+                "title": "TTPD: The Anthology",
+                "image": "img_5.jpg"
+            }
+        
+    },
+    {
+        "id": 6,
+        "name": "Madison Beer",
+        "albums": 
+            {
+                "title": "Silence Between Songs",
+                "image": "img_6.png"
+            }
+        
     }
 ]

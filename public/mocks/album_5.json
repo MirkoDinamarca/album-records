@@ -1,0 +1,133 @@
+{
+    "id": 5,
+    "autor": "Taylor Swift",
+    "title": "The Tortured Poets Department: The Anthology",
+    "image": "img_5.jpg",
+    "songs": [
+        {
+            "title": "Fortnight (feat. Post Malone",
+            "length": "3:48"
+        },
+        {
+            "title": "The Tortured Poets Department",
+            "length": "4:53"
+        },
+        {
+            "title": "My Boy Only Breaks His Favorite Toys",
+            "length": "3:23"
+        },
+        {
+            "title": "Down Bad",
+            "length": "4:21"
+        },
+        {
+            "title": "So Long, London",
+            "length": "4:22"
+        },
+        {
+            "title": "But Daddy I Love Him",
+            "length": "5:40"
+        },
+        {
+            "title": "Fresh Out The Slammer",
+            "length": "3:30"
+        },
+        {
+            "title": "Florida!!! (feat. Florence + The Machine",
+            "length": "3:35"
+        },
+        {
+            "title": "Guilty As Sin?",
+            "length": "4:14"
+        },
+        {
+            "title": "Who's Afraid of Little Old Me?",
+            "length": "5:34"
+        },
+        {
+            "title": "I Can Fix Him (No Really I Can)",
+            "length": "2:36"
+        },
+        {
+            "title": "loml",
+            "length": "4:37"
+        },
+        {
+            "title": "I Can Do It With a Broken Heart",
+            "length": "3:38"
+        },
+        {
+            "title": "The Smallest Man Who Ever Lived",
+            "length": "4:05"
+        },
+        {
+            "title": "The Alchemy",
+            "length": "3:16"
+        },
+        {
+            "title": "Clara Bow",
+            "length": "3:36"
+        },
+        {
+            "title": "The Black Dog",
+            "length": "3:58"
+        },
+        {
+            "title": "imgonnagetyouback",
+            "length": "3:42"
+        },
+        {
+            "title": "The Albatross",
+            "length": "3:03"
+        },
+        {
+            "title": "Chloe or Sam or Sophia or Marcus",
+            "length": "3:33"
+        },
+        {
+            "title": "How Did It End?",
+            "length": "3:58"
+        },
+        {
+            "title": "So High School",
+            "length": "3:48"
+        },
+        {
+            "title": "I Hate It Here",
+            "length": "4:03"
+        },
+        {
+            "title": "ThanK you aIMee",
+            "length": "4:23"
+        },
+        {
+            "title": "I Look in People's Windows",
+            "length": "2:11"
+        },
+        {
+            "title": "The Prophecy",
+            "length": "4:09"
+        },
+        {
+            "title": "Cassandra",
+            "length": "4:00"
+        },
+        {
+            "title": "Peter",
+            "length": "4:43"
+        },
+        {
+            "title": "The Bolter",
+            "length": "3:58"
+        },
+        {
+            "title": "Robin",
+            "length": "4:00"
+        },
+        {
+            "title": "The Manuscript",
+            "length": "3:44"
+        }
+    ],
+    "description": "'THE TORTURED POETS DEPARTMENT: THE ANTHOLOGY' es un álbum doble que sirve como una reedición del undécimo álbum de Taylor Swift, 'THE TORTURED POETS DEPARTMENT'. 'THE ANTHOLOGY' presenta quince nuevas canciones. El tema del álbum sigue las 5 Etapas del Duelo, con canciones tristes como 'So Long, London' y canciones sobre la ira como 'I Hate It Here'. Este proyecto presenta un sonido distintivo que combina elementos del indie folk, rock alternativo y pop. El álbum incluye colaboraciones con Florence + the Machine y Post Malone."
+}
