@@ -3,6 +3,23 @@
     "autor": "Ariana Grande",
     "title": "eternal sunshine",
     "image": "img_3.jpg",
+    "ratings":[
+        {
+            "source": "Metacritic",
+            "rating": "84/100",
+            "link": "https://www.metacritic.com/music/eternal-sunshine/ariana-grande"
+        },
+        {
+            "source": "RYM - Rate Your Music",
+            "rating": "3.04/5.0",
+            "link": "https://rateyourmusic.com/release/album/ariana-grande/eternal-sunshine/"
+        },
+        {
+            "source": "AOTY - Album Of The Year",
+            "rating": "76/100",
+            "link": "https://www.albumoftheyear.org/album/848848-ariana-grande-eternal-sunshine.php"
+        }
+    ],
     "songs": [
         {
             "title": "intro (end of the world)",

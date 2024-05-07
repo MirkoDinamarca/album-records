@@ -1,8 +1,25 @@
 {
     "id": 7,
     "name": "Gorillaz",
-    "title": "Cracker Island (Delux)",
+    "title": "Cracker Island (Deluxe)",
     "image": "img_7.jpg",
+    "ratings":[
+        {
+            "source": "Metacritic",
+            "rating": "80/100",
+            "link": "https://www.metacritic.com/music/cracker-island/gorillaz"
+        },
+        {
+            "source": "RYM - Rate Your Music",
+            "rating": "3.19/5.0",
+            "link": "https://rateyourmusic.com/release/album/gorillaz/cracker-island-6/"
+        },
+        {
+            "source": "AOTY - Album Of The Year",
+            "rating": "76/100",
+            "link": "https://www.albumoftheyear.org/album/510830-gorillaz-cracker-island.php"
+        }
+    ],
     "songs": [
         {
             "title": "Cracker Island (feat. Thundercat)",

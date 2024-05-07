@@ -3,6 +3,23 @@
     "autor": "Imagine Dragons",
     "title": "Origins",
     "image": "img_4.png",
+    "ratings":[
+        {
+            "source": "Metacritic",
+            "rating": "59/100",
+            "link": "https://www.metacritic.com/music/origins/imagine-dragons"
+        },
+        {
+            "source": "RYM - Rate Your Music",
+            "rating": "1.24/5.0",
+            "link": "https://rateyourmusic.com/release/album/imagine-dragons/origins/"
+        },
+        {
+            "source": "AOTY - Album Of The Year",
+            "rating": "47/100",
+            "link": "https://www.albumoftheyear.org/album/123693-imagine-dragons-origins.php"
+        }
+    ],
     "songs": [
         {
             "title": "Natural",

@@ -34,16 +34,30 @@ const Details = () => {
         </div>
         <br />
         <div className="text-2xl tracking-wide">Autor: <b>{albumDetails.autor}</b></div>
+        <br />
         <hr className="border-2 border-gray-600 my-2" />
         <br />
-        <h2 className="text-2xl font-bold mb-3">Top <span className="text-blue-600">Songs</span></h2>
-        {albumDetails && albumDetails.songs && albumDetails.songs.map(song => {
+        <div className="text-2xl tracking-wide mb-3">Calificaciones:</div>
+        
+        {albumDetails && albumDetails.ratings && albumDetails.ratings.map(rating =>{
           return <>
-            <article className="flex justify-between p-3 rounded-md mb-2 hover:bg-gray-800 transition-all duration-10">
-              <p>{song.title}</p>
-              <p>{song.length}</p>
+            <article key={rating.source} className="flex justify-between p-3 rounded-md mb-2 hover:bg-gray-800 transition-all duration-10">
+              <p><a target="_blank" className="text-blue-600" href={rating.link}>{rating.source}</a></p> 
+              <p>{rating.rating}</p>
             </article>
           </>
+        })} 
+        <hr className="border-2 border-gray-600 my-2" />
+        <br />
+        <h2 className="text-2xl font-bold mb-3">Top Songs</h2>
+        {albumDetails && albumDetails.songs && albumDetails.songs.map((song, index) => {
+          const songNumber = index + 1;
+          return (
+            <article key={song.title} className="flex justify-between p-3 rounded-md mb-2 hover:bg-gray-800 transition-all duration-10">
+              <p>{songNumber}. {song.title}</p>
+              <p>{song.length}</p>
+            </article>
+          );
         })}
 
         <button onClick={() => navigate("/")} className="bg-gray-500 p-2 rounded-lg text-white w-24 font-semibold tracking-wider hover:bg-gray-600 cursor-pointer transition-all duration-10">Volver</button>

@@ -3,6 +3,23 @@
     "autor": "Taylor Swift",
     "title": "The Tortured Poets Department: The Anthology",
     "image": "img_5.jpg",
+    "ratings":[
+        {
+            "source": "Metacritic",
+            "rating": "69/100",
+            "link": "https://www.metacritic.com/music/the-tortured-poets-department-the-anthology/taylor-swift"
+        },
+        {
+            "source": "RYM - Rate Your Music",
+            "rating": "2.81/5.0",
+            "link": "https://rateyourmusic.com/release/album/taylor-swift/the-tortured-poets-department-the-anthology-1/"
+        },
+        {
+            "source": "AOTY - Album Of The Year",
+            "rating": "73/100",
+            "link": "https://www.albumoftheyear.org/album/934464-taylor-swift-the-tortured-poets-department-the-anthology.php"
+        }
+    ],
     "songs": [
         {
             "title": "Fortnight (feat. Post Malone",
