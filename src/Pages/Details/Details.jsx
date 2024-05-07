@@ -38,7 +38,7 @@ const Details = () => {
         <hr className="border-2 border-gray-600 my-2" />
         <br />
         <div className="text-2xl tracking-wide mb-3">Calificaciones:</div>
-        
+        {/* Se fija en el mock los distintos datos para mapear */}
         {albumDetails && albumDetails.ratings && albumDetails.ratings.map(rating =>{
           return <>
             <article key={rating.source} className="flex justify-between p-3 rounded-md mb-2 hover:bg-gray-800 transition-all duration-10">
