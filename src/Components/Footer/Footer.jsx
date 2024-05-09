@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className="inset-x-0 fixed bottom-0 p-6 bg-gray-700 ">
+    <div className="inset-x-0 bottom-0 p-2 bg-gray-700 ">
       <div className="flex h-12 justify-between text-base mt-6">
         <div>Contactanos: 299700763X</div>
         <div>
@@ -11,7 +11,7 @@ const Footer = () => {
             album_records_ok
           </span>
         </div>
-        <div>todos los derechos reservados</div>
+        <div>Todos los derechos reservados</div>
       </div>
     </div>
   )

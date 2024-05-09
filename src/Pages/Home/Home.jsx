@@ -49,7 +49,6 @@ const Home = () => {
 
     return (
         <div className={style.home}>
-
             {/* Input para buscar las tareas */}
             <div className="flex justify-center">
                 <input className="text-center w-52 h-12 mb-5 border-double border-4 border-red-700 text-black rounded-md" type="text" placeholder="Buscar..." onChange={onChangeSearch} />
