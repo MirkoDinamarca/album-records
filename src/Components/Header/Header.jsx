@@ -6,12 +6,11 @@ const Header = () => {
   const navigate = useNavigate();
 
   const onClickHomeHandler = () => {
-    //console.log("hola");
     navigate(ROUTES.home);
   };
 
   return (
-    <div className="inset-x-0 top-0 p-3 bg-gray-700 w-full  ">
+    <div className="fixed inset-x-0 top-0 p-3 bg-gray-700 z-50">
       <div className="flex h-12 justify-between">
         <button onClick={onClickHomeHandler}>Album records</button>
         <button className="flex space-x-1" onClick={onClickHomeHandler}>
