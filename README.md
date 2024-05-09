@@ -30,16 +30,20 @@ librerías o eliminar aquellas que no se utilicen. Además, nos permite ejecutar
 ## Instalación
 
 1. Clona este repositorio:
-   `git clone https://github.com/MirkoDinamarca/todolist.git`
+   `git clone https://github.com/MirkoDinamarca/album-records.git`
+![GIT CLONE](/public/img/img_readme_1.png)
 
-2. Navega a la carpeta del proyecto:
-   `cd todolist`
+2. Navega a la carpeta del proyecto desde la consola:
+   `cd album-records`
+![CD ALBUM](/public/img/img_readme_2.png)
 
 3. Instala las dependencias:
    `npm install` 
+![NPM INSTALL](/public/img/img_readme_3.png)
 
 4. Ejecuta el proyecto (Si estás en Windows):
    `npm start`
+![NPM START](/public/img/img_readme_4.png)
 
 Visita `http://localhost:3000` en tu navegador para ver la aplicación en funcionamiento.
 
