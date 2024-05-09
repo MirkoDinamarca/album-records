@@ -21,14 +21,14 @@ const Details = () => {
   }, [id])
 
   return (
-    <section className="bg-no-repeat" style={{ backgroundImage: `url("/img/img_author_${id}.jpg")` }}>
-      <section className="w-1/2 py-3 pt-52 mx-auto text-gray-400" >
-        <div className="grid grid-cols-3 gap-3">
+    <section className="bg-no-repeat pt-4 xl:pt-52" style={{ backgroundImage: `url("/img/img_author_${id}.jpg")` }}>
+      <section className="w-auto xl:w-1/2 py-3 pt-52 mx-auto text-gray-400 p-5 xl:p-0">
+        <div className="grid grid-cols-1 xl:grid-cols-3 xl:gap-3 ">
           <div className="col-span-1 w-full h-full">
-            <img className="bg-cover w-full h-auto rounded-lg" src={`/img/${albumDetails.image}`} alt="Imagen Album" />
+            <img className="bg-cover w-full md:w-1/2 xl:w-full h-auto rounded-lg" src={`/img/${albumDetails.image}`} alt="Imagen Album" />
           </div>
           <div className="col-span-2 flex flex-col">
-            <h3 className="text-xl font-bold">{albumDetails.title}</h3>
+            <h3 className="text-xl font-bold mt-3 xl:mt-0">{albumDetails.title}</h3>
             <div className="mt-3"><p className="tracking-wide">{albumDetails.description}</p></div>
           </div>
         </div>

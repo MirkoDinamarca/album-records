@@ -1,18 +1,13 @@
-import { useNavigate } from "react-router-dom";
-import { ROUTES } from "../../Const/routes";
 import { useEffect, useState } from "react";
-import style from "./Home.module.css";
 import List from "../../Components/List/List";
 const Home = () => {
 
-    const navigate = useNavigate();
     const [listAlbums, setListAlbums] = useState([]);
     const [filterAlbums, setFilterAlbums] = useState([]);
 
     /**
      * Al momento de iniciar el Component 'Home' realiza un fetch al mock de 'Albums'
      * Los datos que trae lo colocamos en el state de 'albums'
-     * (Mirko)
      */
     useEffect(() => {
         const fetchAlbums = async () => {
@@ -27,11 +22,6 @@ const Home = () => {
         }
         fetchAlbums()
     }, [])
-
-    const onClickDetailsHandler = (id_album) => {
-        const url = `${ROUTES.details}/${id_album}`
-        navigate(url);
-    };
 
     /**
      * Buscador de Albums
@@ -48,12 +38,12 @@ const Home = () => {
     };
 
     return (
-        <div className={style.home}>
+        <div className="pt-16 xl:pt-20">
             {/* Input para buscar las tareas */}
             <div className="flex justify-center">
-                <input className="text-center w-52 h-12 mb-5 border-double border-4 border-red-700 text-black rounded-md" type="text" placeholder="Buscar..." onChange={onChangeSearch} />
+                <input className="text-center w-52 h-12 my-5 border-double border-4 border-red-700 text-black rounded-md" type="text" placeholder="Buscar..." onChange={onChangeSearch} />
             </div>
-            <List albums={filterAlbums} onClickDetailsHandler={onClickDetailsHandler} />
+            <List albums={filterAlbums} />
 
         </div>
     )
