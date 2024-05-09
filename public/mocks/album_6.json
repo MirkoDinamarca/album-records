@@ -3,6 +3,23 @@
     "autor": "Madison Beer",
     "title": "Silence Between Songs",
     "image": "img_6.png",
+    "ratings":[
+        {
+            "source": "Metacritic",
+            "rating": "70/100",
+            "link": "https://www.metacritic.com/music/silence-between-songs/madison-beer"
+        },
+        {
+            "source": "RYM - Rate Your Music",
+            "rating": "3.16/5.0",
+            "link": "https://rateyourmusic.com/release/album/madison-beer/silence-between-songs/"
+        },
+        {
+            "source": "AOTY - Album Of The Year",
+            "rating": "69/100",
+            "link": "https://www.albumoftheyear.org/album/676158-madison-beer-silence-between-songs.php"
+        }
+    ],
     "songs": [
         {
             "title": "Spinnin",

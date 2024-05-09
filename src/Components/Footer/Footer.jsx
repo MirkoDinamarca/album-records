@@ -2,8 +2,8 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className="fixed inset-x-0 bottom-0 p-3 bg-gray-700 ">
-      <div className="flex h-6 justify-between mt-0">
+    <div className="inset-x-0 bottom-0 p-2 bg-gray-700 ">
+      <div className="flex h-12 justify-between text-base mt-6">
         <div>Contactanos: 299700763X</div>
         <div>
           <span className="flex items-center mr-2">
@@ -11,7 +11,7 @@ const Footer = () => {
             album_records_ok
           </span>
         </div>
-        <div>todos los derechos reservados</div>
+        <div>Todos los derechos reservados</div>
       </div>
     </div>
   )

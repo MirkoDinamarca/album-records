@@ -3,6 +3,23 @@
     "autor": "Parcels",
     "title": "Parcels",
     "image": "img_1.jpg",
+    "ratings":[
+        {
+            "source": "Metacritic",
+            "rating": "73/100",
+            "link": "https://www.metacritic.com/music/parcels"
+        },
+        {
+            "source": "RYM - Rate Your Music",
+            "rating": "3.42/5.0",
+            "link": "https://rateyourmusic.com/release/album/parcels/parcels/"
+        },
+        {
+            "source": "AOTY - Album Of The Year",
+            "rating": "76/100",
+            "link": "https://www.albumoftheyear.org/album/124165-parcels-parcels.php"
+        }
+    ],
     "songs": [
         {
             "title": "Comedown",
@@ -47,6 +64,10 @@
         {
             "title": "Bemyself",
             "length": "2:27"
+        },
+        {
+            "title": "Credits (feat. Dean Dawson)",
+            "length": "3:36"
         }
     ],
     "description": "El álbum homónimo de Parcels fusiona la nostalgia de la música disco con una perspectiva contemporánea. Con ritmos pegajosos, melodías contagiosas y letras reflexivas, cada canción ofrece una experiencia auditiva cautivadora. Desde temas animados hasta introspectivos, Parcels demuestra ser una banda emocionante y prometedora en la escena musical actual."

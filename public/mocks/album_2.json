@@ -3,6 +3,23 @@
     "autor": "M83",
     "title": "Hurry up, We're Dreaming",
     "image": "img_2.jpg",
+    "ratings":[
+        {
+            "source": "Metacritic",
+            "rating": "76/100",
+            "link": "https://www.metacritic.com/music/hurry-up-were-dreaming/m83"
+        },
+        {
+            "source": "RYM - Rate Your Music",
+            "rating": "3.47/5.0",
+            "link": "https://rateyourmusic.com/release/album/m83/hurry-up-were-dreaming/"
+        },
+        {
+            "source": "AOTY - Album Of The Year",
+            "rating": "75/100",
+            "link": "https://www.albumoftheyear.org/album/2706-m83-hurry-up-were-dreaming.php"
+        }
+    ],
     "songs": [
         {
             "title": "Intro",
